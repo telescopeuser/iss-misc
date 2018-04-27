@@ -1,0 +1,28 @@
+https://github.com/mrmeku/brackets-closure-linter/issues/3
+pip install python-gflags
+
+
+https://github.com/llSourcell/A-Guide-to-DeepMinds-StarCraft-AI-Environment/issues/2
+In the file "train_mineral_shards.py" replace line 22:
+"CollectMineralShards",
+with:
+map_name="CollectMineralShards",
+
+
+https://github.com/chris-chris/pysc2-examples/issues/5
+[solution1]
+pysc2 has switched from python-gflags to absl.flags in deepmind/pysc2@f2f96c0 
+Need to find ways to change:
+import gflags as flags 
+to 
+from absl import flags
+
+[solution2]
+This repo uses gflags library, where pysc2 uses absl flags library. Inf your program You just have to set:
+if name == 'main':
+import sys
+from absl import flags
+FLAGS = flags.FLAGS
+FLAGS(sys.argv)
+main()
+

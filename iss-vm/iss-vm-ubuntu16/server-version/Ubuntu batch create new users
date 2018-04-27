@@ -1,0 +1,21 @@
+sudo useradd -m -p `mkpasswd iss-user001` iss-user001
+sudo useradd -m -p `mkpasswd iss-user002` iss-user002
+sudo useradd -m -p `mkpasswd iss-user003` iss-user003
+sudo useradd -m -p `mkpasswd iss-user004` iss-user004
+sudo useradd -m -p `mkpasswd iss-user005` iss-user005
+sudo useradd -m -p `mkpasswd iss-user006` iss-user006
+sudo useradd -m -p `mkpasswd iss-user007` iss-user007
+sudo useradd -m -p `mkpasswd iss-user008` iss-user008
+sudo useradd -m -p `mkpasswd iss-user009` iss-user009
+sudo useradd -m -p `mkpasswd iss-user010` iss-user010
+sudo useradd -m -p `mkpasswd iss-user011` iss-user011
+sudo useradd -m -p `mkpasswd iss-user012` iss-user012
+sudo useradd -m -p `mkpasswd iss-user013` iss-user013
+sudo useradd -m -p `mkpasswd iss-user014` iss-user014
+sudo useradd -m -p `mkpasswd iss-user015` iss-user015
+sudo useradd -m -p `mkpasswd iss-user016` iss-user016
+sudo useradd -m -p `mkpasswd iss-user017` iss-user017
+sudo useradd -m -p `mkpasswd iss-user018` iss-user018
+sudo useradd -m -p `mkpasswd iss-user019` iss-user019
+sudo useradd -m -p `mkpasswd iss-user020` iss-user020
+

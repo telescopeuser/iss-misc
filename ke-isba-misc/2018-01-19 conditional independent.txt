@@ -1,0 +1,6 @@
+a^b and a^~b are ‘joint distribution’. 
+
+When we say c and a are conditional independent, it means: (no matter how) a changes, a has no impact on c, bcoz of a and c are NOT directly linked. (Only b and c are directly linked). Thus we can simply ‘remove’ a from the formula where c is concerned, or say, when calculate c, only c’s DIRECT parents are included for calculating c; and when calculating b, only b’s direct parents are included. 
+
+Conditional independence is to segregate/limit the impact or influence in between immediate parent-child nodes only, in DAG.
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+Exec=mysql -uiss-user -piss-user
+Icon=/home/iss-user/.DoNotDelete/png-mysql.png
+Terminal=true
+Type=Application
+Name[en_SG]=Tool MySQL

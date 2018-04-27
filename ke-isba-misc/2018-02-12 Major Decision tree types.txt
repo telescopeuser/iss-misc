@@ -1,0 +1,14 @@
+For your preparation for next ISBA lecture: Major Decision tree types:
+CART: Gini index
+ID3: Information Gain
+C4.5: Information Gain Ratio (patented non-free algorithm)
+C5.0: Weighted Information Gain Ratio (patented non-free algorithm)
+CHAID: Chi-squared Automatic Interaction Detector
+https://www.quora.com/What-are-the-differences-between-ID3-C4-5-and-CART
+https://en.m.wikipedia.org/wiki/C4.5_algorithm
+https://en.wikipedia.org/wiki/Chi-square_automatic_interaction_detection
+http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+sklearn.tree.DecisionTreeClassifier: criterion : string, optional (default=”gini”) The function to measure the quality of a split. Supported criteria are “gini” for the Gini impurity and “entropy” for the information gain.
+
+Remember to read below link before we re-encounter in Lecture 9!
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff

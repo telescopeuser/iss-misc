@@ -1,0 +1,5 @@
+Difference Rule Based System, Decision Tree, IF-THEN-ELSE
+
+Decision Tree & list of IF-THEN-ELSE can be converted/transformed to each other.
+The above is used to build rule based system; 
+And RBS incorporate inference mechanism to trigger/match/fire approperiate rules based on new knowledge/observation/facts.

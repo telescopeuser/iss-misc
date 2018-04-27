@@ -1,0 +1,5 @@
+cd /home/iss-user/anaconda3/envs/iss-env-py3/bin/
+
+conda env export -f /home/iss-user/anaconda3/envs/iss-env-py3/bin/environment.yml
+
+conda env update

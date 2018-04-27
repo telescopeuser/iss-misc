@@ -1,0 +1,198 @@
+Company, Compensation ,Return
+3M,13.99,47
+Abbott Laboratories,21.93,4
+AECOM Technology,7.56,11
+AES,8.81,62
+Aflac,13.19,3
+AGCO,4.91,37
+Air Products and Chemicals,9.19,16
+Alcoa,11.21,45
+Ameren,1.58,-11
+American Electric Power,7.09,9
+American Express,16.62,122
+Ameriprise Financial ,18.21,69
+AmerisourceBergen,5.54,20
+Anadarko Petroleum ,23.51,63
+Apple ,1,63
+Archer Daniels Midland,14.69,-19
+Arrow Electronics,14.51,57
+Ashland,4.72,49
+Assurant,4.63,0
+AT&T,20.24,4
+Automatic Data Processing,6.16,12
+AutoNation ,5.16,94
+AutoZone,3.05,7
+Avery Dennison,5.33,15
+Avnet,5.6,-23
+Avon Products ,6,35
+Baker Hughes ,8.3,28
+Ball ,8.79,25
+Bank of America ,0.03,7
+Baxter International ,11.84,11
+BB&T ,3.87,-3
+Becton Dickinson,7.13,-11
+Berkshire Hathaway,1.75,3
+Boeing ,13.71,31
+Boston Scientific ,33.37,16
+Bristol-Myers Squibb  ,17,14
+C.H. Robinson Worldwide  ,3.32,8
+Campbell Soup,11.56,-12
+Capital One Financial,6.08,22
+Cardinal Health,9.97,40
+Carnival,7.2,53
+CenterPoint Energy,4.6,21
+Chubb,13.65,-1
+CIGNA ,6.54,110
+Cisco Systems,12.79,0
+Citigroup,0.13,-51
+Coca-Cola,14.79,30
+Coca-Cola Enterprises,14.3,79
+Colgate-Palmolive,14.41,21
+Commercial Metals,1.23,-33
+Community Health Systems,10.25,144
+ConAgra Foods,5.86,-18
+Costco Wholesale,9.73,-23
+Crown Holdings,12.83,48
+CSX  ,7.02,52
+Cummins,6.94,74
+CVS Caremark ,16.23,13
+Darden Restaurants,6.56,8
+Deere,4.27,21
+DISH Network,1,87
+Dominion Resources,10.38,13
+Dow Chemical,15.67,23
+DTE Energy,7.55,28
+Duke Energy,6.5,21
+DuPont,8.34,40
+Eaton,6.8,32
+eBay,10.13,69
+Ecolab  ,7,28
+Edison International ,5.53,12
+Eli Lilly ,16.37,-6
+EMC  ,9.05,67
+Emerson Electric,6.9,1
+Entergy,14.67,2
+Estee Lauder,8.04,-28
+Exelon,12.04,-8
+Express Scripts  ,10.63,57
+Family Dollar Store,5.61,24
+FedEx,7.74,-39
+First American,1.98,18
+Fluor,9.44,1
+Ford Motor,17.92,337
+Fortune Brands,10.3,7
+FPLGroup,10.88,9
+General Dynamics,12.78,21
+General Electric,5.49,-3
+General Mills,9.22,-16
+Genuine Parts,1.61,4
+Gilead Sciences,14.68,-15
+Goldman Sachs,0.86,102
+Goodrich,6.09,76
+Goodyear Tire & Rubber,14.91,136
+Hess,13.57,13
+Hewlett-Packard,24.2,25
+Honeywell,12.84,23
+Hormel Foods,6.28,32
+Humana,6.51,18
+Huntsman,7.39,240
+IBM,21.16,58
+Illinois Tool Works,9.86,40
+Intel,14.41,43
+International Paper,7.04,130
+Jabil Circuit,4.5,-33
+Jacobs Engineering,4.62,-15
+Johnson & Johnson,22.53,11
+Johnson Controls,6.42,-14
+JP Morgan Chase,1.26,34
+Kellogg,7.81,25
+Kimberly  ,9,25
+Kohl's  ,9.04,37
+L-3 Communications   ,13.67,20
+Lincoln National,6.9,33
+Lockheed Martin   ,20.47,-8
+Manpower,5.35,63
+Marathon Oil ,6.57,18
+McGraw-Hill,5.91,48
+MeadWestvaco ,4.67,164
+MedcoHealth Solutions,13.32,52
+MetLife ,9.98,4
+Microsoft,1.28,-12
+Monsanto,10.8,-26
+Mosaic,4.53,-56
+Motorola ,6.46,75
+Murphy Oil,7.82,24
+Navistar International,4.56,10
+Newmont Mining,6.32,17
+News Corp.,17.96,-39
+Nike,7.11,-15
+Norfolk Southern,9.08,14
+Northrop Grumman,17.92,28
+Nucor,2.88,4
+Occidental Petroleum,31.4,38
+Office Depot,3.39,116
+Office Max,4.23,66
+Oneok,4.87,59
+Oracle,84.5,-14
+Owens and Minor,2.65,16
+Owens-Illinois,8.02,20
+Paccar,2.99,29
+Pantry,3.39,-26
+Parker Hamilton,9.11,-36
+Peabody Energy,11.39,100
+Penake Automotive Group,1.03,98
+Pepco Holdings,2.37,1
+PepsiCo,14.14,14
+Pfizer,13.66,7
+PG&E,8.94,20
+PNC Financial Services Group,14.8,10
+PPG Industries,6.36,43
+PPL,7.67,10
+Praxalr,7.71,38
+Proctor & Gamble,23.47,-13
+Progressive ,9.13,21
+Prudential Financial ,15.57,67
+Public Service Enterprise ,7.13,19
+QUALCOMM ,17.43,6
+Qwest Communications Int.,11.97,24
+Reynolds American ,15.21,40
+Safeway ,9.38,-9
+Sara Lee,10.92,-17
+Schlumberger,13.12,56
+Sempra Energy,8.33,35
+Shaw Group,15.09,-41
+Sherwin Williams,7.5,6
+Sonic Automotive,3.13,161
+Starbucks,14.07,39
+State Street,6.53,11
+Stryker,3.91,27
+Sun Microsystems,6.98,-15
+Sunoco,1.49,-37
+Suntrust Banks,5.83,-31
+Synnex,2.88,171
+Sysco,3.2,-14
+Texas Health Care,9.32,369
+Texas Instruments,9.82,71
+Textron,4.13,36
+The Southern Company,8.06,-5
+The Williams Companies,8.08,49
+Time Warner,19.38,21
+Travelers Companies,20.1,13
+Tyson Foods,0.53,7
+U.S. Bancorp,6.63,-9
+United Parcel Service,5.49,7
+United States Steel,1.51,49
+United Technologies,17.9,32
+Valero Energy,10.91,-20
+Verizon Communications,17.01,3
+V F Corporation,6.41,38
+Visa,12.4,13
+W. W. Granger,5.01,25
+Walgreen,6.17,-6
+Walt Disney,21.59,-9
+Waste Management,5.48,6
+Wells Fargo,18.76,-7
+Western Digital,6.85,-23
+Whirlpool,10.81,99
+Whole Foods,0.65,52
+Winn Dixie,4.6,-22

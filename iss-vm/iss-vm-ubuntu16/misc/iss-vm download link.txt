@@ -1,0 +1,31 @@
+Version:
+iss-vm-500gb-v09.ova
+
+
+iss-vm User Guide:
+http://bit.ly/iss-vm
+https://github.com/telescopeuser/iss-vm/blob/master/User%20Guide%20for%20iss-vm.pdf
+
+
+iss-vm Download Link:
+http://bit.ly/SamGu
+https://drive.google.com/open?id=1Wsg5PL9zSf2lPxhD89H92EPbQIUmyYg9
+
+
+Dear all,
+1)
+A new verion of iss-vm is now available. 
+Installtion guide: http://bit.ly/iss-vm
+Direct download: http://bit.ly/iss-vm-v09
+
+New tools included are:
+Weka - Machine learning workflow tool for Computational Intelligence 1 workshop
+Google map visualization package in R
+3D RGL interactive visualization package in R
+
+2)
+For those interest in hardcore deep neural net training, by seting up virtual machine with GPU processor on Google Cloud, here is the guide:
+for Linux:
+https://github.com/telescopeuser/Prod-GCP-GPU-Setup/blob/master/Sam%20GU%20Zhan%20step%20by%20step%20GCP%20GPU%20vm%20instance%20setup.txt
+for Windows:
+https://medium.com/ai-saturdays/the-windows-guide-to-setting-up-a-google-cloud-instance-for-the-fast-ai-course-fe2d61f098ca

@@ -1,0 +1,6 @@
+sudo adduser iss-userXXXX
+sudo passwd iss-userXXXX
+sudo usermod -G vboxsf -a iss-userXXXX
+sudo rsync -aP ~bytecommander/ ~iss-userXXXX
+sudo chown iss-userXXXX -R ~iss-userXXXX
+sudo sed -i 's/iss-user/iss-userXXXX/g' /home/iss-userXXXX/Desktop/*

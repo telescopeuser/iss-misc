@@ -1,0 +1,16 @@
+sudo apt-get update
+
+source activate iss-env-py3
+pip install pysc2
+pip install baselines
+
+
+Zip file Password:
+iagreetotheeula
+
+https://github.com/deepmind/pysc2
+
+https://github.com/Blizzard/s2client-proto
+To access the linux packages, map packs and replay packs, you must agree to the AI and Machine Learning License
+The files are password protected with the password 'iagreetotheeula'.
+

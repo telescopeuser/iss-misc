@@ -1,0 +1,13 @@
+
+Day 5 Model Evaluation:
+ROC - go wiki: https://en.wikipedia.org/wiki/Receiver_operating_characteristic
+https://www.youtube.com/watch?v=OAl6eAyP-yo
+
+Day 6 Overfitting and Underfitting:
+Overfitting - use example of house price prediction, different degrees of polynomial curves
+Train validation score curve - dm's scikit-learn nbs
+
+Day 7 Visualization:
+Train validation score curve, Confustin matrix, Scatter matrix - Orange3
+
+

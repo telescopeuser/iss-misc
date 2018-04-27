@@ -1,0 +1,112 @@
+Machine Learning Model Evaluation
+Bias & Variance
+High Bias - Underfitting
+High Variance - Overfitting
+
+
+==================================================================================================
+Part 1: Understanding Bias and Variance
+==================================================================================================
+
+You got headache, skin rash, and ass pain.
+You want to find the cause/desease of your health concern, so you are thinking for medical consultancy.
+
+You have a few choices:
+
+General Pannel doctor: GP <- A generic, comprehensive/wide, complex predictive machine for all generic medical conditions
+Specialist doctor: S1 in brain department for headache <- A specialized, focused/deep, simple predictive machine in one medical domain
+Specialist doctor: S2 in skin department for skin rash <- A specialized, focused/deep, simple predictive machine in one medical domain
+Specialist doctor: S3 in surgical department for ass pain <- A specialized, focused/deep, simple predictive machine in one medical domain
+ISS lecturer: Sam Gu for free consultancy after buying him some beer <- A not-medic-trained, unlisenced, and drunk layman
+
+
+4 round cricle graph
+
+    x      GP
+
+    S1   
+    S2   Sam Gu
+    S3   
+
+
+GP as an individual or a complex/comprehensive/wide decision-tree pridictive model: Low Bias, High Variance (Overfitting, in terms of trained by all patient cases data): 
+Knowledge of, and trained by many generic patient medical histories and cases.
+GP is with high sensitivity to many irrelevant sysptoms, which generates many hypothecial causes/deseases of your health problem. But one of them may be the true cause.
+
+S1 as an individual or a simple/focused/deep decision-tree pridictive model: High Bias, Low Variance (Underfitting, in terms of trained by only a subset of brain patient cases data): 
+Knowledge of, and trained by only specific sub-medic-domain patient medical histories and cases, i.e. all cases related to brain of nueron science. Any S1 discardd/ignores all non-brain related case data.
+S1 is with high accuracy to brain sysptoms, which generates hypothecial causes/deseases in brain problems only. But S1 may have missed the true cause.
+In case your real health cause is indeed a brain issue (but generally we don't know), S1 is the best doctor/model for you.
+In case your real health cause is NOT a brain issue (again we don't know either), S1 becomes the inapproperiate doctor/model for this perticular problem, and no matter how knowledgeable the brain specialist is (how you fine tune the model), S1/model will not finding true root cause of your health problem. (Hence, is this the reason we generally visit GP doctor firstly?)
+
+S2 is similar to S1, trained in skin domain.
+
+S3 is similar to S1, trained in surgical domain.
+
+Sam Gu is a High Bias, High Variance model, junk model; Or sometimes you need a (random guess) model for benchmarking model performance.
+
+
+
+==================================================================================================
+Part 2: Bias Variance trade-off during machine learning process, or model training
+==================================================================================================
+
+4 round cricle graph
+
+    S1   
+    S2   Balanced    GP
+    S3   
+
+            x
+
+
+Regularization technique to prevent overfitting.
+
+
+Validation Curve
+
+
+Learning Curve
+
+
+==================================================================================================
+Part 3: Ensemble Models
+==================================================================================================
+
+Imagine you request S1, S2, S3 to form a commitee to review your health problem (You can invite many other specialist and GP doctors as well, if you are rich). This is ensemble method/model.
+
+Ensemble idea: build multiple models with different sub-set samples of original training data.
+Bagging (Boostrap Aggregation) & Boosting are different methods for sampling.
+
+Bagging: Any element has the same probability to appear in a new training data set. The element can be data records, or features of data set, or both.
+
+Boosting: Each data record is assigned a weight score, and those with higher scores will appear in new training sets more often. 
+The weights are determined by machine learning models DURING the training process: Those data cases which are predicted (during learning process) incorrectly shall get higher weights, meaning these more 'difficult (predicted incorrectly by current pre-mature models)' cases need more 'attention (appear more often in sampling)' during next round of machine learning iteration.
+
+Bagging model examples: Ensemble CART decision tree, Random Forest, Extra Trees
+
+Boosting model examples: Adaptive boosting, grandient boosting trees
+
+Actually any machine learning models can use these techniques.
+
+
+==================================================================================================
+Part 4: Misc and references
+==================================================================================================
+
+Out of box question for you: Why Specialists get paid more than GP doctor in real world? (simple/focused/deep/high-bias pridictive model vs. complex/comprehensive/wide/high-variance pridictive model)
+
+
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
+https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/
+https://github.com/telescopeuser/Prod-KE2018ISBA/blob/master/workshop-9-model-evaluation-Advanced/Advanced-model-validation-py3.ipynb
+
+
+==================================================================================================
+Part 5: Exam Q
+==================================================================================================
+You were working on a data science modeling project. You did data cleaning to remove all missing data, a few features with lengthy text and coded values, of which you can't figure out the meaning after asking around. You also conducted one-hot/dummy encoding to transform all categorical features to numeric ones, then you fit all transformed and remaining complete raw data to all possible models under your awareness. Afer many many rounds of models hyper-parameters tuning, finally you obtained a machine learning model that gave you best performance, around 75% prediction accuracy on test set. Sadly, this is not an impressive accuracy because you learned from recent indurtrial conference that your competiter company had achieved 95% accuracy at similar project. In the same conference event, you learned that using ensemble modeling approach can imporve model performance, hence you gave it a try. To your surprise, there was nearly no improvement in model performace and accuracy. You then asked yourself the questions:
+What can be the reason for this no-improvement phenomenon? 
+And what can you do to further improve current model performance?
+
