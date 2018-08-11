@@ -8,15 +8,8 @@ getwd()
 ###########################################################
 # distribution histogram
 ###########################################################
-x <- rnorm(1000)
-hist(x, breaks = 20)
-
-###########################################################
-# rattle for modeling
-###########################################################
-library("rattle")
-rattle()
-# rattleInfo()
+x <- rnorm(10000)
+hist(x, breaks = 50)
 
 ###########################################################
 # interactive visualization
@@ -45,6 +38,14 @@ server <- function(input, output) {
 shinyApp(ui, server)
 
 
+###########################################################
+# rattle for modeling
+###########################################################
+library("rattle")
+rattle()
+# rattleInfo()
+
+
 ##############################
 # ggplot2 in R
 ##############################
@@ -55,9 +56,11 @@ help('ggplot2')
 ggplot(mpg, aes(displ, hwy, colour = class)) + 
   geom_point()
 
+
 ##############################
 # Google Map in R
 ##############################
+
 # Google map example
 # install.packages('ggmap')
 library('ggmap')
@@ -93,6 +96,7 @@ sum(df$lat < bb$ll.lat |
       df$lat > bb$ur.lat | 
       df$lon < bb$ll.lon | 
       df$lon > bb$ur.lon)
+
 
 ###########################################################
 # 3D RGL Visualization

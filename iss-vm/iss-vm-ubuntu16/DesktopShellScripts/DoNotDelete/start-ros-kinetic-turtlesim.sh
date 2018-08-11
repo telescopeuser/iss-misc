@@ -7,22 +7,20 @@ echo 'copy  : Control + Insert'
 echo 'paste : Shift   + Insert'
 echo -----------------------------------------------
 echo ' '
-echo '        Robotic Operating System (ROS)  '
-echo '        ROS Kinectic Example: turtlesim '
+echo 'ROS Kinectic Example: turtlesim'
 echo ' '
-echo 'Open three new Terminal tabs by: Control + Shift + T'
-echo 'Copy and run below three commands:'
-echo ' '
-echo 'In Terminal tab 1, run:'
+echo 'Please use three Terminal tabs, to'
+echo 'copy and run below three commands:'
+echo '[1]'
 echo 'roscore'
-echo ' '
-echo 'In Terminal tab 2, run:'
+echo '[2]'
 echo 'rosrun turtlesim turtlesim_node'
-echo ' '
-echo 'In Terminal tab 3, run:'
+echo '[3]'
 echo 'rosrun turtlesim turtle_teleop_key'
 echo ===============================================
 echo ' '
+
+gnome-terminal
 
 #gnome-terminal -x sh -c '/opt/ros/kinetic/bin/roscore; exec bash'
 #gnome-terminal -x sh -c '/opt/ros/kinetic/bin/rosrun turtlesim turtlesim_node; exec bash'
@@ -33,12 +31,4 @@ sleep 50s
 echo 'This message will be closed in 10 seconds...'
 sleep 5s
 echo 'This message will be closed in  5 seconds...'
-sleep 1s
-echo 'This message will be closed in  4 seconds...'
-sleep 1s
-echo 'This message will be closed in  3 seconds...'
-sleep 1s
-echo 'This message will be closed in  2 seconds...'
-sleep 1s
-echo 'This message will be closed in  1 second ... Bye Bye'
-sleep 1s
+sleep 5s
