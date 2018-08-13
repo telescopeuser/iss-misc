@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+Exec=/home/iss-user/iss-vm-program/is-intelligent-reasoning-systems/jboss/jbpm-server-7.9.0.Final-dist/bin/standalone.sh
+Icon=/home/iss-user/.DoNotDelete/png-jBPM.png
+Terminal=true
+Type=Application
+Name[en_SG]=Tool IRS-RS jBPM

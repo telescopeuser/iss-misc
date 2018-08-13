@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+Exec=/home/iss-user/iss-vm-program/is-intelligent-reasoning-systems/jboss/optaplanner-distribution-7.9.0.Final/examples/runExamples.sh
+Icon=/home/iss-user/.DoNotDelete/png-OptaPlanner.png
+Terminal=true
+Type=Application
+Name[en_SG]=Solution IRS-RS Solver
