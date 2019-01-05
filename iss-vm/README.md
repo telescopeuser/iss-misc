@@ -4,9 +4,9 @@
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
 * .2. Download and iss-vm virtual machine (an Appliance) from: 
 
-		http://bit.ly/iss-vm-v18a   ( part 1 about 13 GB in file size )
+	http://bit.ly/iss-vm-v18a   ( part 1 about 13 GB in file size )
 
-		http://bit.ly/iss-vm-v18b   ( part 2 about 13 GB in file size )
+	http://bit.ly/iss-vm-v18b   ( part 2 about 13 GB in file size )
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
